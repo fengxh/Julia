@@ -1,0 +1,2 @@
+SET(LIBQPOASES_SRC Bounds.c Constraints.c Flipper.c Indexlist.c Matrices.c MessageHandling.c Options.c OQPinterface.c qpOASES.c QProblem.c QProblemB.c Utils.c)
+ADD_LIBRARY(qpOASES SHARED ${LIBQPOASES_SRC})
